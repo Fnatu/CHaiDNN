@@ -148,9 +148,9 @@ To build `CHaiDNN` using the Xilinx&reg; SDx Development Environment, perform th
 
 26.	Select the Hardware functions.
 
-    - Navigate to `src/design/src/pool/src/pooling_layer_dp_2xio_top.cpp` file using SDx explorer, right click on `PoolTop` and select Toggle HW/SW.
+    - Navigate to `src/design/pool/src/pooling_layer_dp_2xio_top.cpp` file using SDx explorer, right click on `PoolTop` and select Toggle HW/SW.
 
-    - Navigate to `src/design/src/deconv/src/xi_deconv_top.cpp` file using SDx explorer, right click on `XiDeconvTop` and select Toggle HW/SW.
+    - Navigate to `src/design/deconv/src/xi_deconv_top.cpp` file using SDx explorer, right click on `XiDeconvTop` and select Toggle HW/SW.
 
      >**:pushpin: NOTE:**  When building `DietChai` don't map any function to HW. `XiConvolutionTop` will be mapped to HW by default.
 
