@@ -347,7 +347,8 @@ Follow the steps to compile the software stack.
 	 ```
 
 1. Now run the following commands.
-
+   >**:pushpin: NOTE:**  
+   > - running ultraclean erases the previous libxlnxdnn.so copied into <...>SD_Card/lib/ from <...>/design/build/sd_card
 	 ```sh
 	 make ultraclean
 	 make
