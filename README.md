@@ -280,9 +280,14 @@ Please follow the steps to build the design for zcu102 (ZU9 device based board)
 
 1. Please generate a custom platform with 1x and 2x clocks using the steps described [here](./docs/CUSTOM_PLATFORM_GEN.md). With Chai-v2, we now have the DSPs operating at twice the frequency of the rest of the core.
 
+1. Open `<path to CHaiDNN folder>/design/conv/scripts/mcps.tcl` file and modify the path of `xdc` file as shown below.
+	```
+    	read_xdc <path to CHaiDNN folder>/design/conv/scripts/mcp_const.xdc
+	```
+	>**:pushpin: NOTE:**  
+   	> - Make sure the path to mcp_const.xdc is correct
 
 1. Go to `CHaiDNN/design/build` folder.
-
 
 1. Set SDx tool environment
    - For BASH:
